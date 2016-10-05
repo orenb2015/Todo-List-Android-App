@@ -3,7 +3,7 @@
 "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-	<class name="model.User" table="USERS">
+	<class name="il.ac.hit.todolist.model.User" table="USERS">
 		<id name="id" type="int" column="ID">
 			<generator class="increment" />
 		</id>
@@ -17,7 +17,7 @@
 			<column name="PASSWORD" />
 		</property>
 	</class>
-	<class name="model.Item" table="ITEMS">
+	<class name="il.ac.hit.todolist.model.Item" table="ITEMS">
 		<id name="id" type="int" column="ID">
 			<generator class="increment" />
 		</id>

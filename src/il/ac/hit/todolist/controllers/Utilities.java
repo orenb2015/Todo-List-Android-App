@@ -3,6 +3,8 @@ package il.ac.hit.todolist.controllers;
 import il.ac.hit.todolist.model.Item;
 import il.ac.hit.todolist.model.ToDoListService;
 
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 
@@ -43,5 +45,19 @@ public class Utilities {
 			}
 		}
 		return null;
+	}
+	
+	/**
+	 * gets the username from the cookie if saved
+	 * @return empty string if did not find username
+	 */
+	public static String getUsernameFromCookie(HttpServletRequest request) {
+		for (Cookie cookie : request.getCookies()) {
+			if (cookie.getName().equals("username"))
+			{
+				return cookie.getValue();
+			}
+		}
+		return "";
 	}
 }

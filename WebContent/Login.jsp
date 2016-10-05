@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ page import="il.ac.hit.todolist.controllers.Utilities"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -51,9 +52,7 @@ body {
 				<form role="form" method="post" action="LoginController">
 					Username:<br /> <input type="text" name="username"
 						class="form-control"
-						value="<%if (request.getCookies().length != 0) {
-				out.print(request.getCookies()[0].getValue());
-			}%>" /></br>
+						value="<%=Utilities.getUsernameFromCookie(request)%>" /></br>
 					Password:<br /> <input type="password" name="password"
 						class="form-control" /></br> <input type="submit" value="Login!"
 						class="form-control btn btn-success" />

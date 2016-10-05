@@ -7,7 +7,7 @@
 	<servlet>
 		<display-name>LoginController</display-name>
 		<servlet-name>LoginController</servlet-name>
-		<servlet-class>controllers.LoginController</servlet-class>
+		<servlet-class>il.ac.hit.todolist.controllers.LoginController</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>LoginController</servlet-name>
@@ -17,7 +17,7 @@
 	<servlet>
 		<display-name>LogoutController</display-name>
 		<servlet-name>LogoutController</servlet-name>
-		<servlet-class>controllers.LogoutController</servlet-class>
+		<servlet-class>il.ac.hit.todolist.controllers.LogoutController</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>LogoutController</servlet-name>
@@ -27,7 +27,7 @@
 	<servlet>
 		<display-name>DeleteController</display-name>
 		<servlet-name>DeleteController</servlet-name>
-		<servlet-class>controllers.DeleteController</servlet-class>
+		<servlet-class>il.ac.hit.todolist.controllers.DeleteController</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>DeleteController</servlet-name>
@@ -37,7 +37,7 @@
 	<servlet>
 		<display-name>NewItemController</display-name>
 		<servlet-name>NewItemController</servlet-name>
-		<servlet-class>controllers.NewItemController</servlet-class>
+		<servlet-class>il.ac.hit.todolist.controllers.NewItemController</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>NewItemController</servlet-name>
@@ -47,7 +47,7 @@
 	<servlet>
 		<display-name>EditController</display-name>
 		<servlet-name>EditController</servlet-name>
-		<servlet-class>controllers.EditController</servlet-class>
+		<servlet-class>il.ac.hit.todolist.controllers.EditController</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>EditController</servlet-name>
@@ -57,7 +57,7 @@
 	<servlet>
 		<display-name>TodoListController</display-name>
 		<servlet-name>TodoListController</servlet-name>
-		<servlet-class>controllers.TodoListController</servlet-class>
+		<servlet-class>il.ac.hit.todolist.controllers.TodoListController</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>TodoListController</servlet-name>
