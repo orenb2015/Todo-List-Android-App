@@ -1,4 +1,4 @@
-# Android To-do List Appkication 
+# Android To-do List Application 
 ## Author : Oren Brikman
 
 ### Abstract: 
